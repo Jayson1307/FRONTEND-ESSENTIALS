@@ -6,17 +6,64 @@
     <title>Flexbox container</title>
 
     <style>
+        .container{
+            border:5px solid black;
+            background: darkorange;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+  }
+        .menu-item{
+            color:black;
+            font-size: 20px;
+            text-align: center;
+            text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+            padding:10px;
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padd
+  }
+  #home{
+    background-color: teal;
+      color: black;
+      margin: 10px;
+      padding-right: 10px;
+ }
+  #over-mij{
+    background-color: teal;
+      color: black;
+      margin: 10px;
+      padding-right: 10px;
+ }
+  #vaardigheden{
+    background-color: teal;
+      color: black;
+      margin: 10px;
+      padding-right: 10px;
+  }
+  #hobbys{
+    background-color: teal;
+      color: black;
+      margin: 10px;
+      padding-right: 10px;
+  }
+  
+
+  
        
     </style>
 </head>
 <body>
-   <nav>
-       <ul class="container">
-           <li class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\home.html">Home</a></li>
-           <li class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\over mij.html">Over mij</a></li>
-           <li class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\vaardigheden.html">Vaardigheden</a></li>
-           <li class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\hobby's.html">Hobby's</a></li>
-       </ul>
-   </nav>
+    <div>
+        <nav>
+            <ul class="container">
+                <li id="home" class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\home.html">Home</a></li>
+                <li id="over-mij" class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\over mij.html">Over mij</a></li>
+                <li id="vaardigheden" class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\vaardigheden.html">Vaardigheden</a></li>
+                <li id="hobbys" class="menu-item"><a href="C:\Users\GROTE\OneDrive - ROCvA, ROCvF en VOvA\jaar1\frontend-essentials\04 - FlexBox\taak02 - justify-content\hobby's.html">Hobby's</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
