@@ -1,0 +1,7 @@
+let mijnVoornaam = "Jayson"
+let mijnAchternaam = "van olffen"
+let mijnLeeftijd = "16"
+let ikBenStemGerechtig = "nee"
+let ikMagLegaalAlcoholKopen = "nee"
+let ikMagLegaalBrommerRijden = "nee"
+let softwareOntwikkeling = "ja"
