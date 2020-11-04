@@ -1,0 +1,28 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#bovenkant{
+    width: 900px;
+    height: 50%;
+    background-color: yellow;
+}
+#midden{
+    width: 900px;
+    height: 25%;
+    background-color:blue;
+}
+
+#onderkant{
+    width: 900px;
+    height: 25%;
+    background-color: red;
+}
