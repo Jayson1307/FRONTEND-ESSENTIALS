@@ -1,4 +1,3 @@
-/* Hier hoef je niks mee te doen */
 *{
     font-size:0;
 }
@@ -9,18 +8,19 @@
     background-color: blanchedalmond;
     border: 1px solid black;
 }
-
-/* Hieronder kun je gaan editen */
-
 #bovenkant{
     width: 900px;
-    height: 300px;
+    height: 200px;
+    background-color: red;
+}
+#midden{
+    width: 100%;
+    height: 200px;
     background-color: white;
 }
 
 #onderkant{
     width: 900px;
-    height: 300px;
-    background-color: red;
+    height: 200px;
+    background-color: blue;
 }
-
