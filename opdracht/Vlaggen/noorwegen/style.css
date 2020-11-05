@@ -1,0 +1,72 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+#bovenkant{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: greenyellow; 
+}
+#linksboven{
+    width: 250px;
+    background-color:red;
+    display: inline-block;
+    border-right: 20px white solid;
+    border-bottom: solid 20px white;
+}
+#middenstukboven{
+    width: 40px;
+    background-color: blue;
+    display: inline-block;
+    border: white;
+}
+#rechtsboven{
+    width: 570px;
+    background-color: red;
+    display: inline-block;
+    border-left: solid white 20px;
+    border-bottom: white solid 20px;
+}
+#middenlijn{
+    height: 40px;
+    width: 900px;
+    background-color: blue;
+}
+
+#onderkant{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    background-color: greenyellow; 
+    border-top: blue 20px solid;
+}
+#linksonder{
+    width: 250px;
+    background-color:red;
+    display: inline-block;
+    border-top: white solid 20px;
+    border-right: white solid 20px;
+}
+#middenstukonder{
+    width: 40px;
+    background-color: blue;
+    display: inline-block;
+}
+#rechtsonder{
+    width: 570px;
+    background-color: red;
+    display: inline-block;
+    border-left: white solid 20px;
+    border-top: white solid 20px;
+}
