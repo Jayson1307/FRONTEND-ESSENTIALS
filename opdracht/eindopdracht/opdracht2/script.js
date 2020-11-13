@@ -36,8 +36,8 @@ if (leeftijd == 19){
 if (leeftijd == 20){
     document.body.style.backgroundColor = "beige";
 }
-if (leeftijd == null){
-    document.body.style.backgroundColor = "darkgrey";
+if (leeftijd ==  null){
+    document.body.style.backgroundColor = "hotpink";
 }
 var element = document.getElementById("id05");
 element.innerHTML = leeftijd;
